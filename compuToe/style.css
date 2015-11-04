@@ -1,0 +1,91 @@
+/** {
+	border: 1px green solid;
+}
+*/
+
+
+.container {
+	width: 600px;
+	height: 350px;
+	background-color: blanchedalmond;
+}
+
+.side {
+	float: left;
+	width: 24%;
+	text-align: center;
+	color: white;
+	opacity: 0.5;
+	border: 3px solid blanchedalmond;
+}
+
+.board {
+	float: left;
+	width: 50%;
+}
+
+.square {
+	float: left;
+	width: 32%;
+	height: 100px;
+	font-size: 80px;
+	text-align: center;
+
+	border: 1px solid black;
+}
+
+.top {
+	border-top-width: 0px;
+}
+
+.right {
+	border-right-width: 0px;
+}
+
+.bottom {
+	border-bottom-width: 0px;
+}
+
+.left {
+	border-left-width: 0px;
+}
+
+.open:hover {
+	background-color: lightgrey;
+}
+
+.x {
+	background-color: teal;
+	/*border-radius: 10px;*/
+}
+
+.o {
+	background-color: red;
+	/*border-radius: 10px;*/
+}
+
+.active {
+	color: gold;
+	border: 3px solid black;
+	opacity: 1;
+}
+
+.winning {
+	color: white;
+}
+
+.footer {
+	width: 600px;
+	background-color: blanchedalmond;
+}
+
+button {
+	width: 300px;
+	margin: 0 auto;
+	clear: both;
+	background-color: gold;
+}
+
+p {
+	display: inline;
+}

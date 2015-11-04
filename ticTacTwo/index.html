@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="side x">
+			<h3 class="x label">X</h3>
+			<label for="x-score">Wins:</label>
+			<p id="x-score">0</p>
+		</div> <!-- .side x -->
+		<div class="board">
+			<div class="open square top left" id="0"></div>
+			<div class="open square top" id="1"></div>
+			<div class="open square top right" id="2"></div>
+			<div class="open square left" id="3"></div>
+			<div class="open square" id="4"></div>
+			<div class="open square right" id="5"></div>
+			<div class="open square bottom left" id="6"></div>
+			<div class="open square bottom" id="7"></div>
+			<div class="open square right bottom" id="8"></div>
+
+		</div> <!-- .board -->
+
+		<div class="side o">
+			<h3 class="o label">O</h3>
+			<label for="o-score">Wins:</label>
+			<p id="o-score">0</p>
+		</div> <!-- .side o -->
+	</div> <!-- .container -->
+	<div class="footer">
+		<button id="new-game">New Game</button>
+		<p>Number of completed games: </p>
+		<p id="num-games">0</p>
+	</div> <!-- .footer-->
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
